@@ -10,14 +10,14 @@ linear regression model. I built an accuracy metric function into the modell giv
 for the predicted values compared to the target values. I reached more than 96% accuracy in this way after </br>
 50 epochs.</br>
 </br>
-Aim of the "Numbers Logistic Regression FeedForward" project is to identify hand-written single digits in a white  </br>
-blank papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
-hand-written digits. The color of the MNIST digits is white while the background is black. When contructing </br>
+The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
+white papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
+hand-written digits. The color of the MNIST digits is white while the background is black. When constructing </br>
 the model I used Pytroch libary, softmax function to make the logits score into probability, and cross enthropy </br> 
 for the loss function. I boosted the model for better result with 2 hidden linear layers and rectified linear </br> 
-units after the hidden layer to ignore the negative values to use non linear transformation to the inputs.</br> 
+unit after a hidden layer to ignore the negative values to use non linear transformation to the inputs.</br> 
 Accuracy after 20 epochs is around 95%, which is quite good result. For using the webcam for the test images </br>
 I used a JavaScript code. The only trick I had to perform to get good predictions is to make the webcam image </br>
 into inverse (1-values) as the training images had black background and white digits while I write the digits</br>
-by a pen on a white paper. The model worked with around 95% accuracy.
+by a pen on a white paper. The model works with around 95% accuracy.
 
