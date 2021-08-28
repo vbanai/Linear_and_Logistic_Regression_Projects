@@ -1,4 +1,4 @@
-In this section you can find two projects which works with linear regression and logistic regression technics.</br>
+In this section you can find two projects which works with linear regression and logistic regression technics:</br>
 </br>
 - Tabular data prediction (Linear regression)</br>
 - Multiclass classification (Logistic regression)</br>
