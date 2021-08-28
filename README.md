@@ -1,5 +1,8 @@
 In this section you can find two projects which works with linear regression and logistic regression technics.</br>
 </br>
+- Tabular data prediction (Linear regression)</br>
+- Multiclass classification (Logistic regression)</br>
+</br>
 "Tabular playground 2021 linear regression" project presents a solution for a Kaggle competition assigment,  </br>
 where you can use linear regression. Straight Line might only give "good" predictions, and not "great"   </br> 
 predictions, but they will be consistently good predictions. Straight line has relatively low variance,   </br>
