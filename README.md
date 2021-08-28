@@ -13,7 +13,7 @@ linear regression model. I built an accuracy metric function into the modell giv
 for the predicted values compared to the target values. I reached more than 96% accuracy in this way after </br>
 50 epochs.</br>
 </br>
-2.) MULTICLASS CLASSIFICATION</br>
+2.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
 </br>
 The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
 white papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
