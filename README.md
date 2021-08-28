@@ -1,6 +1,6 @@
 In this section you can find two projects which work with linear regression and logistic regression technics.</br>
 </br>
-1.) Tabular data prediction </br>
+1.) TABULAR DATA PREDICTION </br>
 
 </br>
 "Tabular playground 2021 linear regression" project presents a solution for a Kaggle competition assigment,  </br>
@@ -13,9 +13,9 @@ linear regression model. I built an accuracy metric function into the modell giv
 for the predicted values compared to the target values. I reached more than 96% accuracy in this way after </br>
 50 epochs.</br>
 </br>
-2.) Multiclass classification</br>
+2.) MULTICLASS CLASSIFICATION</br>
 </br>
-2.) The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
+The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
 white papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
 hand-written digits. The color of the MNIST digits is white while the background is black. When constructing </br>
 the model I used Pytroch libary, softmax function to make the logits score into probability, and cross enthropy </br> 
