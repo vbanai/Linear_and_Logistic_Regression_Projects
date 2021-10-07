@@ -1,5 +1,6 @@
-In this section you can find two projects which work with linear regression and logistic regression technics.</br>
-</br>
+|efe|sdfsd|
+|---|-----|
+
 1.) TABULAR DATA PREDICTION </br>
 
 </br>
