@@ -4,19 +4,19 @@
 
 </br>
 
-"Tabular playground 2021 linear regression" project presents several solution for a Kaggle competition assigment,  </br>
-where you can use linear regression.  The dataset is quite approachable to achieve relatively good results in the </br>
-begining, but it is tough to improve the predictions. Competitors had to predict a continuous target based on a number  </br>
-of feature columns given in the data. All of the feature columns, cont1 - cont14 are continuous. I used several technics</br>
-to improve the results. The following table presents the result of each method.</br>
+"Tabular playground 2021 linear regression" project presents several solution for a Kaggle competition assigment </br>
+Competitors had to predict a continuous target based on a number of feature columns given in the data. All of the </br>
+feature columns, cont1 - cont14 are continuous. The dataset is quite approachable to achieve relatively good results </br>
+in the begining, but it is tough to improve the predictions. I used several technics to improve the results. The</br>
+following table presents the result of each method.</br>
 
-|                            | Mean Absolute Error|Mean Squarred Error|R2 Score|Accuracy with +/- 20% range| 
+|                            | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
-|        Statsmodels         |                  
-|          SKlearn           |
-|   Improved Sklearn model   |
-| Feed-forward neural network|
-|         XGBoost            |
+|        Statsmodels         |        0.61        |       0.53        |  0.019 |          98.08%           |
+|          SKlearn           |        0.61        |       0.53        |  0.019 |          98.08%           | 
+|   Improved Sklearn model   |        0.60        |       0.52        |  0.036 |          98.18%           |
+| Feed-forward neural network|        0.60        |       0.52        |        |          97.26%           |
+|         XGBoost            |        0.60        |       0.51        |  0.057 |          98.25%           |
 
 </br>
 2.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
