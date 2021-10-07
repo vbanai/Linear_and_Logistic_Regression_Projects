@@ -24,7 +24,7 @@ following table presents the result of each method.</br>
 The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
 white papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
 hand-written digits. The color of the MNIST digits is white while the background is black. When constructing </br>
-the model I used Pytroch libary, softmax function to make the logits score into probability, and cross enthropy </br> 
+the model I used Pytroch libary, softmax function to make the logits score into probability, and cross enthrophy </br> 
 for the loss function. I boosted the model for better result with 2 hidden linear layers and rectified linear </br> 
 unit after a hidden layer to ignore the negative values to use non linear transformation to the inputs.</br> 
 Accuracy after 20 epochs is around 95%, which is quite good result. For using the webcam for the test images </br>
