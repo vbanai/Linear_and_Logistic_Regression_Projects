@@ -14,7 +14,6 @@ to improve the results. The following table presents the result of each method.<
 |        Statsmodels         |                  
 |----------------------------|
 |          SKlearn           |
-|----------------------------|
 |   Improved Sklearn model   |
 |----------------------------|
 | Feed-forward neural network|
