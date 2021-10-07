@@ -10,9 +10,9 @@ begining, but it is tough to improve the predictions. Competitors had to predict
 of feature columns given in the data. All of the feature columns, cont1 - cont14 are continuous. I used several technics</br>
 to improve the results. The following table presents the result of each method.</br>
 
-        
+|                            |
+|----------------------------|      
 |        Statsmodels         |                  
-|----------------------------|
 |          SKlearn           |
 |   Improved Sklearn model   |
 | Feed-forward neural network|
