@@ -15,11 +15,8 @@ to improve the results. The following table presents the result of each method.<
 |----------------------------|
 |          SKlearn           |
 |   Improved Sklearn model   |
-|----------------------------|
 | Feed-forward neural network|
-|----------------------------|
 |         XGBoost            |
-|----------------------------|
 
 </br>
 2.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
