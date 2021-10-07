@@ -4,15 +4,17 @@
 1.) TABULAR DATA PREDICTION </br>
 
 </br>
-"Tabular playground 2021 linear regression" project presents a solution for a Kaggle competition assigment,  </br>
-where you can use linear regression. Straight Line might only give "good" predictions, and not "great"   </br> 
-predictions, but they will be consistently good predictions. Straight line has relatively low variance,   </br>
-because the sum of squares are very similar for different datasets. Competitors has to predict a continuous   </br>
-target based on a number of feature columns given in the data. All of the feature columns, cont1 - cont14   </br>
-are continuous. The test set is realtively large with 200000 rows. I Used Pytorch libary for building the   </br>
-linear regression model. I built an accuracy metric function into the modell giving -/+20% range leeway  </br>
-for the predicted values compared to the target values. I reached more than 96% accuracy in this way after </br>
-50 epochs.</br>
+
+"Tabular playground 2021 linear regression" project presents several solution for a Kaggle competition assigment,  </br>
+where you can use linear regression.  The dataset is quite approachable to achieve relatively good results in the </br>
+begining, but it is tough to improve the predictions. Competitors had to predict a continuous target based on a number  </br>
+of feature columns given in the data. All of the feature columns, cont1 - cont14 are continuous. I used several technics</br>
+to improve the results. The following table presents the result of each method.</br>
+
+|    |Stat model|Sklearn|Sklearn with yeo-johnson, non linear|
+|    |                  |transformation and outlier removal  |
+|----|------------------|------------------------------------|
+
 </br>
 2.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
 </br>
