@@ -4,7 +4,7 @@
 
 </br>
 
-"Tabular playground 2021 linear regression" project presents several solution for a Kaggle competition assigment </br>
+The "Tabular playground 2021 linear regression" project presents several solution for a Kaggle competition assigment </br>
 Competitors had to predict a continuous target based on a number of feature columns given in the data. All of the </br>
 feature columns, cont1 - cont14 are continuous. The dataset is quite approachable to achieve relatively good results </br>
 in the begining, but it is tough to improve the predictions. I used several technics to improve the results. The</br>
