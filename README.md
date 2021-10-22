@@ -30,9 +30,15 @@
         <tr>
            <td rowspan=2>Gaussian Naive Bayes Model</td>
            <td>Preprocessed</td>
+           <td>92.98%</td>
+           <td>96.35%</td>
+           <td>95.96%</td>
         </tr>
         <tr>
            <td>No Preprocessing</td>
+           <td>92.94%</td>
+           <td>96.32%</td>
+           <td>96.00%</td>
         </tr>
         <tr>
             <td>96.54%</td>
