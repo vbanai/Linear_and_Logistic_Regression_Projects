@@ -14,7 +14,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=8>Positive/Negative Frequency</td>
+            <td rowspan=8>Positive/Negative<br> Frequency</td>
             <td rowspan=2>Logistic Regression (Sklearn)</td>
             <td>No Preprocessing</td>
             <td>92.82%</td>
