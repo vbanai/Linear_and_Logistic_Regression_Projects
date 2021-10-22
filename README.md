@@ -21,8 +21,7 @@
             <td>96.27%</td>
             <td>95.83%</td>
         </tr>
-        <tr>
-            
+        <tr>          
             <td>Preprocessed</td>
             <td>93.33%</td>
             <td>96.54%</td>
@@ -34,7 +33,6 @@
            <td>92.94%</td>
            <td>96.32%</td>
            <td>96.00%</td>
-
         </tr>
         <tr>
            <td>Preprocessed</td>
