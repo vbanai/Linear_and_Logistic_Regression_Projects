@@ -199,22 +199,22 @@ model and results are the followings: </br>
            <td>95.98%</td>
         </tr>     
         <tr>
-            <td rowspan=3>Deep Neural Network (5 epoch)</td>
+            <td rowspan=3>Deep Neural Network (5 epochs)</td>
             <td rowspan=1>One embeding and <br> hidden layer</td>
             <td>Not converging</td>
         </tr>
         <tr>
            <td rowspan=2>One embeding, one conv1D<br>and one hidden layer</td>
            <td>No Preprocessing</td>
-           <td></td>
-           <td></td>
-           <td></td>
-        </tr>
-        </tr> 
-           <td>Preprocessed</td>
            <td>96.43%</td>
            <td>98.13%</td>
            <td>97.05%</td>
+        </tr>
+        </tr> 
+           <td>Preprocessed</td>
+           <td>96.30%</td>
+           <td>98.05%</td>
+           <td>96.98%</td>
     </tbody>
 </table>
 </br>
