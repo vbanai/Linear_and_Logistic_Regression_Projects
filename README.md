@@ -54,11 +54,17 @@
            <td>95.90%</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+           <td rowspan=2>XGBoost</td>
+           <td>No Preprocessing</td>
+           <td>95.67%</td>
+           <td>97.79%</td>
+           <td>95.67%</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+           <td>Preprocessed</td>
+           <td>95.67%</td>
+           <td>97.79%</td>
+           <td>95.67%</td>
         </tr>
     </tbody>
 </table>
