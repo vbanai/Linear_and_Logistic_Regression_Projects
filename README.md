@@ -17,6 +17,7 @@
             <td rowspan=8>Positive/Negative Frequency</td>
             <td rowspan=2>Logistic Regression (Sklearn)</td>
             <td>Preprocessed</td>
+            <td>93.33%</td>
         </tr>
         <tr>
             <td>No Preprocessing</td>
