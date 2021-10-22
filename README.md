@@ -4,19 +4,40 @@
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Method</th>
+            <th>Model</th>
+            <th>Dataset</th>
+            <th>Accuracy</th>
+            <th>F-Score</th>
+            <th>Precision</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td rowspan=8>Positive/Negative Frequency</td>
+            <td rowspan=2>Logistic Regression (Sklearn)</td>
+            <td>Preprocessed</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>No Preprocessing</td>
+        </tr>
+        <tr>
+            <td>93.33%</td>
+        </tr>
+        <tr>
+            <td>92.82%</td>
+        </tr>
+        <tr>
+            <td>96.54%</td>
+        </tr>
+        <tr>
+            <td>96.27%</td>
+        </tr>
+        <tr>
+            <td>95.81%</td>
+        </tr>
+        <tr>
+            <td>95.83%</td>
         </tr>
         <tr>
             <td rowspan=2>L2 Name B</td>
