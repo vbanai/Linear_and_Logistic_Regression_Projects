@@ -15,7 +15,7 @@
     <tbody>
         <tr>
             <td rowspan=8>Positive/Negative<br> Frequency</td>
-            <td rowspan=2>Logistic Regression (Sklearn)</td>
+            <td rowspan=2>Logistic Regression<br> (Sklearn)</td>
             <td>No Preprocessing</td>
             <td>92.82%</td>
             <td>96.27%</td>
@@ -68,7 +68,7 @@
         </tr>      
         <tr>
             <td rowspan=8>Bag of Words</td>
-            <td rowspan=2>Logistic Regression (Sklearn)</td>
+            <td rowspan=2>Logistic Regression <br>(Sklearn)</td>
             <td>No Preprocessing</td>
             <td></td>
             <td></td>
@@ -121,7 +121,7 @@
         </tr>
         <tr>
             <td rowspan=8>Term Frequency - Inverse <br>Document Frequency</td>
-            <td rowspan=2>Logistic Regression (Sklearn)</td>
+            <td rowspan=2>Logistic Regression <br>(Sklearn)</td>
             <td>No Preprocessing</td>
             <td></td>
             <td></td>
