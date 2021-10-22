@@ -120,7 +120,7 @@
            <td>96.02%</td>
         </tr>
         <tr>
-            <td rowspan=8>Term Frequency - Inverse Document Frequency</td>
+            <td rowspan=8>Term Frequency - Inverse <br>Document Frequency</td>
             <td rowspan=2>Logistic Regression (Sklearn)</td>
             <td>No Preprocessing</td>
             <td></td>
