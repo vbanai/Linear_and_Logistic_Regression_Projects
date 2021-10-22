@@ -22,9 +22,9 @@ following table presents the result of each method.</br>
 Sentiment Analysis is the most common text classification method that analyses an incoming message and tells </br>
 whether the underlying sentiment is positive, or negative. The data I am analyzing is downloaded from Kaggel </br>
 and having been scraped from Booking.com. This dataset contains 515,000 customer reviews and scoring of 1493 </br>
-luxury hotels across Europe./br> I tried several method and cleaning technics to improve the predictions. The </br>
-model and results are the followings: </br>
-
+luxury hotels across Europe./br> I tried several method and cleaning technics to improve the predictions. F-score  </br>
+shows the overall health of the model.model and results are the followings: </br>
+</br>
 <table>
     <thead>
         <tr>
