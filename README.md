@@ -28,7 +28,7 @@
             <td>95.81%</td>
         </tr>
         <tr>
-           <td rowspan=2>Gaussian Naive Bayes Model</td>
+           <td rowspan=2>Gaussian Naive Bayes</td>
            <td>No Preprocessing</td>
            <td>92.94%</td>
            <td>96.32%</td>
@@ -41,16 +41,17 @@
            <td>95.96%</td>
         </tr>
         <tr>
-            <td>96.54%</td>
+           <td rowspan=2>Decision Tree</td>
+           <td>No Preprocessing</td>
+           <td>92.07%</td>
+           <td>95.86%</td>
+           <td>95.85%</td>
         </tr>
         <tr>
-            <td>96.27%</td>
-        </tr>
-        <tr>
-            <td>95.81%</td>
-        </tr>
-        <tr>
-            <td>95.83%</td>
+           <td>Preprocessed</td>
+           <td>92.06%</td>
+           <td>95.85%</td>
+           <td>95.90%</td>
         </tr>
         <tr>
             <td rowspan=2>L2 Name B</td>
