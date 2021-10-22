@@ -16,29 +16,31 @@
         <tr>
             <td rowspan=8>Positive/Negative Frequency</td>
             <td rowspan=2>Logistic Regression (Sklearn)</td>
-            <td>Preprocessed</td>
-            <td>93.33%</td>
-            <td>96.54%</td>
-            <td>95.81%</td>
-        </tr>
-        <tr>
             <td>No Preprocessing</td>
             <td>92.82%</td>
             <td>96.27%</td>
             <td>95.83%</td>
         </tr>
         <tr>
-           <td rowspan=2>Gaussian Naive Bayes Model</td>
-           <td>Preprocessed</td>
-           <td>92.98%</td>
-           <td>96.35%</td>
-           <td>95.96%</td>
+            
+            <td>Preprocessed</td>
+            <td>93.33%</td>
+            <td>96.54%</td>
+            <td>95.81%</td>
         </tr>
         <tr>
+           <td rowspan=2>Gaussian Naive Bayes Model</td>
            <td>No Preprocessing</td>
            <td>92.94%</td>
            <td>96.32%</td>
            <td>96.00%</td>
+
+        </tr>
+        <tr>
+           <td>Preprocessed</td>
+           <td>92.98%</td>
+           <td>96.35%</td>
+           <td>95.96%</td>
         </tr>
         <tr>
             <td>96.54%</td>
