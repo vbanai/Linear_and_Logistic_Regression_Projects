@@ -123,54 +123,59 @@
             <td rowspan=8>Term Frequency - Inverse <br>Document Frequency</td>
             <td rowspan=2>Logistic Regression <br>(Sklearn)</td>
             <td>No Preprocessing</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>96.22%</td>
+            <td>98.05%</td>
+            <td>96.62%</td>
         </tr>
         <tr>          
             <td>Preprocessed</td>
-            <td>96.11%</td>
-            <td>97.99%</td>
-            <td>96.78%</td>
+            <td>96.22%</td>
+            <td>98.05%</td>
+            <td>96.64%</td>
         </tr>
         <tr>
            <td rowspan=2>Gaussian Naive Bayes</td>
            <td>No Preprocessing</td>
-           <td>85.04%</td>
-           <td>91.69%</td>
-           <td>97.90%</td>
+           <td>69.70%</td>
+           <td>81.32%</td>
+           <td>99.12%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
-           <td>84.25%</td>
-           <td>91.21%</td>
-           <td>97.85%</td>
+           <td>70.70%</td>
+           <td>82.06%</td>
+           <td>99.05%</td>
         </tr>
         <tr>
            <td rowspan=2>Decision Tree</td>
            <td>No Preprocessing</td>
-           <td>93.60%</td>
-           <td>96.65%</td>
-           <td>96.66%</td>
+           <td>93.71%</td>
+           <td>96.72%</td>
+           <td>96.59%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
-           <td>93.62%</td>
-           <td>96.66%</td>
-           <td>96.80%</td>
+           <td>94.06%</td>
+           <td>96.90%</td>
+           <td>96.70%</td>
         </tr>
         <tr>
            <td rowspan=2>XGBoost</td>
            <td>No Preprocessing</td>
-           <td>95.92%</td>
-           <td>97.79%</td>
-           <td>95.67%</td>
+           <td></td>
+           <td></td>
+           <td></td>
         </tr>
         <tr>
            <td>Preprocessed</td>
-           <td>95.67%</td>
+           <td>95.92%</td>
            <td>97.91%</td>
-           <td>96.01%</td>
+           <td>95.98%</td>
+        </tr>     
+        <tr>
+            <td rowspan=3>Deep Neural Network</td>
+            <td rowspan=1>One embeding and <br> hidden layer</td>
+            <td>Not converging</td>
         </tr>
     </tbody>
 </table>
