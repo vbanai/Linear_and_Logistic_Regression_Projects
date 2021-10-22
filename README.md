@@ -70,54 +70,107 @@
             <td rowspan=8>Bag of Words</td>
             <td rowspan=2>Logistic Regression (Sklearn)</td>
             <td>No Preprocessing</td>
-            <td>92.82%</td>
-            <td>96.27%</td>
-            <td>95.83%</td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>          
             <td>Preprocessed</td>
-            <td>93.33%</td>
-            <td>96.54%</td>
-            <td>95.81%</td>
+            <td>96.11%</td>
+            <td>97.99%</td>
+            <td>96.78%</td>
         </tr>
         <tr>
            <td rowspan=2>Gaussian Naive Bayes</td>
            <td>No Preprocessing</td>
-           <td>92.94%</td>
-           <td>96.32%</td>
-           <td>96.00%</td>
+           <td>85.04%</td>
+           <td>91.69%</td>
+           <td>97.90%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
-           <td>92.98%</td>
-           <td>96.35%</td>
-           <td>95.96%</td>
+           <td>84.25%</td>
+           <td>91.21%</td>
+           <td>97.85%</td>
         </tr>
         <tr>
            <td rowspan=2>Decision Tree</td>
            <td>No Preprocessing</td>
-           <td>92.07%</td>
-           <td>95.86%</td>
-           <td>95.85%</td>
+           <td>93.60%</td>
+           <td>96.65%</td>
+           <td>96.66%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
-           <td>92.06%</td>
-           <td>95.85%</td>
-           <td>95.90%</td>
+           <td>93.62%</td>
+           <td>96.66%</td>
+           <td>96.80%</td>
         </tr>
         <tr>
            <td rowspan=2>XGBoost</td>
            <td>No Preprocessing</td>
+           <td>95.92%</td>
+           <td>97.79%</td>
            <td>95.67%</td>
+        </tr>
+        <tr>
+           <td>Preprocessed</td>
+           <td>95.94%</td>
+           <td>97.92%</td>
+           <td>96.02%</td>
+        </tr>
+        <tr>
+            <td rowspan=8>Term Frequency - Inverse Document Frequency</td>
+            <td rowspan=2>Logistic Regression (Sklearn)</td>
+            <td>No Preprocessing</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>          
+            <td>Preprocessed</td>
+            <td>96.11%</td>
+            <td>97.99%</td>
+            <td>96.78%</td>
+        </tr>
+        <tr>
+           <td rowspan=2>Gaussian Naive Bayes</td>
+           <td>No Preprocessing</td>
+           <td>85.04%</td>
+           <td>91.69%</td>
+           <td>97.90%</td>
+        </tr>
+        <tr>
+           <td>Preprocessed</td>
+           <td>84.25%</td>
+           <td>91.21%</td>
+           <td>97.85%</td>
+        </tr>
+        <tr>
+           <td rowspan=2>Decision Tree</td>
+           <td>No Preprocessing</td>
+           <td>93.60%</td>
+           <td>96.65%</td>
+           <td>96.66%</td>
+        </tr>
+        <tr>
+           <td>Preprocessed</td>
+           <td>93.62%</td>
+           <td>96.66%</td>
+           <td>96.80%</td>
+        </tr>
+        <tr>
+           <td rowspan=2>XGBoost</td>
+           <td>No Preprocessing</td>
+           <td>95.92%</td>
            <td>97.79%</td>
            <td>95.67%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
            <td>95.67%</td>
-           <td>97.79%</td>
-           <td>95.67%</td>
+           <td>97.91%</td>
+           <td>96.01%</td>
         </tr>
     </tbody>
 </table>
