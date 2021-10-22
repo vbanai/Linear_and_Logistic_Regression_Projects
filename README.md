@@ -24,7 +24,9 @@ whether the underlying sentiment is positive, or negative. The data I am analyzi
 and having been scraped from Booking.com. This dataset contains 515,000 customer reviews and scoring of 1493 </br>
 luxury hotels across Europe. I tried several methods and cleaning technics to improve the predictions, and I </br>
 evaluated the models by accuracy , f-score, and precision metrics. I made my judgement on performances on the  </br>
-basis of the f-score as in binary classification it shows the overall health of the model the best.
+basis of the f-score as in binary classification it shows the overall health of the model the best. Best performing
+models is the neural network model using 1D convolution technic when we don't preprocess the dataset. Worst performing
+model is the 
 model and results are the followings: </br>
 </br>
 <table>
