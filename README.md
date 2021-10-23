@@ -98,9 +98,9 @@ model and results are the followings: </br>
             <td rowspan=8>Bag of Words</td>
             <td rowspan=2>Logistic Regression <br>(Sklearn)</td>
             <td>No Preprocessing</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>96.14%</td>
+            <td>98.01%</td>
+            <td>96.91%</td>
         </tr>
         <tr>          
             <td>Preprocessed</td>
@@ -190,9 +190,9 @@ model and results are the followings: </br>
         <tr>
            <td rowspan=2>XGBoost</td>
            <td>No Preprocessing</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>95.87%</td>
+           <td>97.89%</td>
+           <td>95.94%</td>
         </tr>
         <tr>
            <td>Preprocessed</td>
