@@ -201,7 +201,7 @@ model and results are the followings: </br>
            <td>95.98%</td>
         </tr>     
         <tr>
-            <td rowspan=3>Deep Neural Network (5 epochs)</td>
+            <td rowspan=4>Deep Neural Network (5 epochs)</td>
             <td rowspan=1>One embeding and <br> hidden layer</td>
             <td>Not converging</td>
         </tr>
