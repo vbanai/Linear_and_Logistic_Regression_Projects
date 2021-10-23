@@ -201,12 +201,12 @@ model and results are the followings: </br>
            <td>95.98%</td>
         </tr>     
         <tr>
-            <td rowspan=4>Deep Neural Network (5 epochs)</td>
-            <td rowspan=1>One embeding and <br> hidden layer</td>
+            <td rowspan=5>Deep Neural Network (5 epochs)</td>
+            <td rowspan=1>One embedding and <br> hidden layer</td>
             <td>Not converging</td>
         </tr>
         <tr>
-           <td rowspan=2>One embeding, one conv1D<br>and one hidden layer</td>
+           <td rowspan=2>One embedding, one conv1D<br>and one hidden layer</td>
            <td>No Preprocessing</td>
            <td>96.43%</td>
            <td>98.13%</td>
@@ -217,6 +217,19 @@ model and results are the followings: </br>
            <td>96.30%</td>
            <td>98.05%</td>
            <td>96.98%</td>
+               </tr>
+        <tr>
+           <td rowspan=2>One embedding, and one <br>bidirectional LSTM layer</td>
+           <td>No Preprocessing</td>
+           <td>96.46%</td>
+           <td>98.14%</td>
+           <td>96.98%</td>
+        </tr>
+        </tr> 
+           <td>Preprocessed</td>
+           <td>96.44%</td>
+           <td>98.13%</td>
+           <td>96.97%</td>
     </tbody>
 </table>
 </br>
