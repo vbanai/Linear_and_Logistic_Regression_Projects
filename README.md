@@ -26,7 +26,7 @@ luxury hotels across Europe. I tried several methods and cleaning technics to im
 evaluated the models by accuracy , f-score, and precision metrics. I made my judgement on performances on the  </br>
 basis of the f-score as in binary classification it shows the overall health of the model the best. Best performing </br>
 models are the 1D convolutional neural network model and the LSTM DNN on not preprocessed dataset. The worst </br>
-performing model is the Bag of Words Gaussian Naive Bayes technic on preprocessed dataset.Used models and their </br>
+performing model is the Bag of Words Gaussian Naive Bayes technic on preprocessed dataset. Used models and their </br>
 results are presented in the following table: </br>
 </br>
 <table>
