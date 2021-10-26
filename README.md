@@ -22,13 +22,14 @@ I used several technics to improve the results. The following table presents the
 </br>
 Sentiment Analysis is the most common text classification method that analyses an incoming message and tells </br>
 whether the underlying sentiment is positive, or negative. The data I am analyzing is downloaded from Kaggel </br>
-and having been scraped from Booking.com. This dataset contains 515,000 customer reviews and scoring of 1493 </br>
-luxury hotels across Europe. I tried several methods and cleaning technics to improve the predictions, and I </br>
-evaluated the models by accuracy , f-score, and precision metrics. I made my judgement on performances on the  </br>
-basis of the f-score as in binary classification it shows the overall health of the model the best. Best performing </br>
-models are the 1D convolutional neural network model and the LSTM DNN on not preprocessed dataset. The worst </br>
-performing model is the Bag of Words Gaussian Naive Bayes technic on preprocessed dataset. Used models and their </br>
-results are presented in the following table: </br>
+and having been scraped from Booking.com. This dataset contains 515,000 customer reviews and scoring of  </br>
+1493 luxury hotels across Europe. I tried several methods and cleaning technics to improve the  </br>
+predictions, and I evaluated the models by accuracy , f-score, and precision metrics. I made my   </br>
+judgement on performances on the basis of the f-score as in binary classification it shows the  </br>
+overall health of the model the best. Best performing models are the 1D convolutional neural  </br>
+network model and the LSTM DNN on not preprocessed dataset. The worst performing model is the and their </br>
+Bag of Words Gaussian Naive Bayes technic on preprocessed dataset. Used models  results are presented </br>
+in the following table: </br>
 </br>
 <table>
     <thead>
