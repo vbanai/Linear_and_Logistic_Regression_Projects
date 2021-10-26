@@ -8,12 +8,12 @@ the data. All of the feature columns, cont1 - cont14 are continuous. The dataset
 to achieve relatively good results in the begining, but it is tough to improve the predictions. </br>
 I used several technics to improve the results. The following table presents the result of each method.</br>
 
-|                            | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
+|           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
 |        Statsmodels         |        0.61        |       0.53        |  0.019 |          98.08%           |
 | Linear Regression (SKlearn)|        0.61        |       0.53        |  0.019 |          98.08%           | 
 |  LR with K-fold cross val. |        0.61        |       0.52        |  0.016 |          98.21%           |
-| LR with feature selection  |        0.60        |       0.52        |  0.036 |          98.18%           |
+| Polynomial Regression      |        0.60        |       0.52        |  0.036 |          98.18%           |
 | Feed-forward neural network|        0.60        |       0.52        |  0.009 |          97.26%           |
 |         XGBoost            |        0.60        |       0.51        |  0.057 |          98.25%           |
 
