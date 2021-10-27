@@ -14,9 +14,9 @@ I used several technics to improve the results. The following table presents the
 | Linear Regression (SKlearn)|        0.61        |       0.53        |  0.019 |          98.08%           | 
 | Linear Regression with K-fold cross validation |        0.61        |       0.52        |  0.016 |          98.21%           |
 | Polynomial Regression with feature selection, Yeo-Johnson transformation and outlier removal |        0.60        |       0.52        |  0.036 |          98.18%           |
-| Random Forest with Yeo-Johnson transformation and K-fold cross validation |0.59 | 0.50 | 0.065 |  98.35%  |
 | Feed-forward neural network|        0.60        |       0.52        |  0.009 |          97.26%           |
 |         XGBoost with cross-validation and YJ transformation          |        0.60        |       0.50        |  0.055 |          98.32%           |
+| Random Forest with Yeo-Johnson transformation and K-fold cross validation |0.59 | 0.50 | 0.065 |  98.35%  |
 
 </br>
 2.) SENTIMENT ANALYSIS</br>
