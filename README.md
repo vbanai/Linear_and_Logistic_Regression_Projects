@@ -6,7 +6,12 @@ The "Tabular playground 2021 linear regression" project presents several solutio
 assigment. Competitors had to predict a continuous target based on a number of feature columns given in  </br>
 the data. All of the feature columns, cont1 - cont14 are continuous. The dataset is quite approachable  </br>
 to achieve relatively good results in the begining, but it is tough to improve the predictions. </br>
-I used several technics to improve the results. The following table presents the result of each method.</br>
+I used several technics to improve the results. Random Forest with Yeo-Johnson Transformation and </br> 
+K-fold (3 splits) cross validaton produced the best result. I think there can still be little room for</br> 
+improvement in case of this model if I'd used for example 10 splits for CV, applied outlier removal and performed </br>
+feature selection and parameter tuning. The reason I didn' build these techincs into this model is that </br> 
+it would have been very time-consuming to get the final results. The following table presents the result of </br>
+each method.</br>
 
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
