@@ -10,9 +10,9 @@ project I am focusing on trying out different models and not on data cleaning an
 I used several technics to improve the results. Random Forest with Yeo-Johnson Transformation and </br> 
 K-fold (3 splits) cross validation produced the best result. I think there can still be little room for</br> 
 improvement in case of this model if I'd used for example 10 splits for CV, applied outlier removal and  </br>
-performed feature selection and parameter tuning. The reason I didn' build these techincs into this model  </br> 
-is that it would have been very time-consuming to get the final results. The following table presents the </br>
- result of each method.</br>
+performed feature selection and parameter tuning (with RandomizedSearchCV, GridSearchCV). The reason   </br> 
+I didn' build these techincs into this model is that it would have been very time-consuming to get the  </br>
+final results. The following table presents the result of each method.</br>
 
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
