@@ -1,6 +1,6 @@
 
 
-1.) TABULAR DATA PREDICTION </br>
+1.) TABULAR DATA PREDICTION I. </br>
 
 The "Tabular playground 2021 linear regression" project presents several solutions for a Kaggle competition  </br>
 assigment. Competitors had to predict a continuous target based on a number of feature columns given in  </br>
@@ -25,7 +25,20 @@ final results. The following table presents the result of each method.</br>
 | Random Forest with Yeo-Johnson transformation and K-fold cross validation |0.59 | 0.50 | 0.065 |  98.35%  |
 
 </br>
-2.) SENTIMENT ANALYSIS</br>
+2.) TABULAR DATA PREDICTION II.
+The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle, is that I considered this  
+dataset to be quite tough to reach good results by using traditional data analyst methods. I saw on the 
+Kaggle competition page that the best models reached only 0,5 R2 scored. I was intrested in if I can achieve 
+better results. The dataset contains almost 50 thousand airbnb listings in NYC. The purpose of this task 
+is to predict the price of NYC Airbnb rentals based on the data provided. Check my results.</br>
+|           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
+|----------------------------|--------------------|-------------------|--------|---------------------------|      
+|        Linear Regression (SKlearn) with Stratified-Shuffle-Split technic     |        53.81        |       8038.27        |  0.38 |          36.44%           |
+| Deep Embeddings - Keras + Ransom Forrest Regressor|        0.01        |       0.07        |  1.0 |          99.97%           | 
+| Feature Crosses - Keras |        70        |       11000        |  0.14 |          24.06%           |
+
+
+3.) SENTIMENT ANALYSIS</br>
 </br>
 Sentiment Analysis is the most common text classification method that analyses an incoming message and tells </br>
 whether the underlying sentiment is positive, or negative. The data I am analyzing is downloaded from Kaggel </br>
@@ -246,7 +259,7 @@ The models' results are presented in the following table: </br>
 
 
 </br>
-3.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
+4.) MULTICLASS CLASSIFICATION BY WEBCAM</br>
 </br>
 The aim of the "Numbers_Logistic Regression_FeedForward" project is to identify hand-written single digits in a   </br>
 white papper shown to the webcam of the computer. For training I used MNIST dataset, which contains single </br>
