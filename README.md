@@ -32,6 +32,7 @@ dataset to be quite tough to reach good results by using traditional data analys
 Kaggle competition page that the best models reached only 0,5 R2 scored. I was intrested in if I can achieve 
 better results. The dataset contains almost 50 thousand airbnb listings in NYC. The purpose of this task 
 is to predict the price of NYC Airbnb rentals based on the data provided. Check my results.</br>
+</br
 
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
