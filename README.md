@@ -28,7 +28,7 @@ final results. The following table presents the result of each method.</br>
 2.) TABULAR DATA PREDICTION II.</br>
 </br>
 The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle is, that I considered this  
-dataset to be quite tough to reach good results by using traditional data analyst methods. I saw on the 
+dataset to be quite tough to reach good results by using traditional data scientist methods. I saw on the 
 Kaggle competition page that the best models reached only approx. 0,5 R2 score. I was intrested in if I can  
 achieve better results. The dataset contains almost 50 thousand airbnb listings in NYC. The purpose of this 
 task  is to predict the price of NYC Airbnb rentals based on the data provided. Check my results.</br>
