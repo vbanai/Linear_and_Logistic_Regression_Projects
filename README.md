@@ -27,7 +27,7 @@ final results. The following table presents the result of each method.</br>
 </br>
 2.) TABULAR DATA PREDICTION II.</br>
 </br>
-The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle, is that I considered this  
+The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle is, that I considered this  
 dataset to be quite tough to reach good results by using traditional data analyst methods. I saw on the 
 Kaggle competition page that the best models reached only 0,5 R2 scored. I was intrested in if I can achieve 
 better results. The dataset contains almost 50 thousand airbnb listings in NYC. The purpose of this task 
@@ -35,10 +35,11 @@ is to predict the price of NYC Airbnb rentals based on the data provided. Check 
 </br>
 
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
-|----------------------------|--------------------|-------------------|--------|---------------------------|      
+|----------------------------|--------------------|-------------------|--------|---------------------------| 
+| Feature Crosses - Keras |        70        |       11000        |  0.14 |          24.06%           |
 |        Linear Regression (SKlearn) with Stratified-Shuffle-Split technic     |        53.81        |       8038.27        |  0.38 |          36.44%           |
 | Deep Embeddings - Keras + Ransom Forrest Regressor|        0.01        |       0.07        |  1.0 |          99.97%           | 
-| Feature Crosses - Keras |        70        |       11000        |  0.14 |          24.06%           |
+
 
 
 3.) SENTIMENT ANALYSIS</br>
