@@ -26,7 +26,7 @@ final results. The following table presents the result of each method.</br>
 
 </br>
 2.) TABULAR DATA PREDICTION II.</br>
-
+</br>
 The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle, is that I considered this  
 dataset to be quite tough to reach good results by using traditional data analyst methods. I saw on the 
 Kaggle competition page that the best models reached only 0,5 R2 scored. I was intrested in if I can achieve 
