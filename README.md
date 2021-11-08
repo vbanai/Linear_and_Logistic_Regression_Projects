@@ -25,12 +25,14 @@ final results. The following table presents the result of each method.</br>
 | Random Forest with Yeo-Johnson transformation and K-fold cross validation |0.59 | 0.50 | 0.065 |  98.35%  |
 
 </br>
-2.) TABULAR DATA PREDICTION II.
+2.) TABULAR DATA PREDICTION II.</br>
+
 The reason why I chose "Predict NYC Airbnb Rental Prices" assignment from Kaggle, is that I considered this  
 dataset to be quite tough to reach good results by using traditional data analyst methods. I saw on the 
 Kaggle competition page that the best models reached only 0,5 R2 scored. I was intrested in if I can achieve 
 better results. The dataset contains almost 50 thousand airbnb listings in NYC. The purpose of this task 
 is to predict the price of NYC Airbnb rentals based on the data provided. Check my results.</br>
+
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
 |        Linear Regression (SKlearn) with Stratified-Shuffle-Split technic     |        53.81        |       8038.27        |  0.38 |          36.44%           |
