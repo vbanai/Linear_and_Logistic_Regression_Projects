@@ -38,7 +38,7 @@ task  is to predict the price of NYC Airbnb rentals based on the data provided. 
 |----------------------------|--------------------|-------------------|--------|---------------------------| 
 | Feature Crosses - Keras |        70        |       11000        |  0.14 |          24.06%           |
 |        Linear Regression (SKlearn) with Stratified-Shuffle-Split technic     |        53.81        |       8038.27        |  0.38 |          36.44%           |
-| Deep Embeddings - Keras + Ransom Forrest Regressor|        0.01        |       0.07        |  1.0 |          99.97%           | 
+| Deep Embeddings - Keras + Random Forrest Regressor|        0.01        |       0.07        |  1.0 |          99.97%           | 
 
 
 
