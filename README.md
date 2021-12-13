@@ -22,7 +22,7 @@ final results. The following table presents the result of each method.</br>
 | Polynomial Regression with feature selection, Yeo-Johnson transformation and outlier removal |        0.60        |       0.52        |  0.036 |          98.18%           |
 | Feed-forward neural network|        0.60        |       0.52        |  0.009 |          97.26%           |
 |         XGBoost with cross-validation and YJ transformation          |        0.60        |       0.50        |  0.055 |          98.32%           |
-
+| RandomForest Model |   0.61 | 0.53 | 0.018 |96.68%
 
 </br>
 2.) TABULAR DATA PREDICTION II.</br>
