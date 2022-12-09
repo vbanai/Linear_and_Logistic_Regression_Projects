@@ -7,12 +7,12 @@ assigment. Competitors had to predict a continuous target based on a number of f
 the data. All of the feature columns, cont1 - cont14 are continuous. The dataset is quite approachable  </br>
 to achieve relatively good results in the begining, but it is tough to improve the predictions. In this </br>
 project I am focusing on trying out different models and not on data cleaning and visualization methods.</br>
-I used several technics to improve the results. Random Forest with Yeo-Johnson Transformation and </br> 
-K-fold (3 splits) cross validation produced the best result. I think there can still be little room for</br> 
-improvement in case of this model if I'd used for example 10 splits for CV, applied outlier removal and  </br>
-performed feature selection and parameter tuning (with RandomizedSearchCV, GridSearchCV). The reason   </br> 
-I didn' build these techincs into this model is that it would have been very time-consuming to get the  </br>
-final results. The following table presents the result of each method.</br>
+I used several technics to improve the results. Random Forest with Yeo-Johnson Transformation  </br> 
+produced the best result. I think there can still be little room for improvement in case of this model</br> 
+if applied outlier removal and performed feature selection and parameter tuning (with RandomizedSearchCV, </br>
+GridSearchCV). The reason I didn' build these techincs into this model is that it would have been very   </br> 
+time-consuming to get the final results. The following table presents the result of each method. </br>
+
 
 |           Models           | Mean Absolute Error|Mean Squared Error |R2 Score|Accuracy with +/- 20% range| 
 |----------------------------|--------------------|-------------------|--------|---------------------------|      
